@@ -8,10 +8,11 @@
     "start": "node dist/index.js",
     "start:dev": "cross-env PORT=2700 DEBUG=W7E* nodemon dist/index.js",
     "build": "tsc -w",
-    "test": "jest --watchAll --coverage"
+    "test": "jest --watchAll --coverage",
+    "prepare": "husky install"
   },
   "keywords": [],
-  "author": "Alejandro Irastorza Leal",
+  "author": "Carlos",
   "license": "ISC",
   "prettier": {
     "singleQuote": true
@@ -34,7 +35,8 @@
     "jest-ts-webcompat-resolver": "^1.0.0",
     "nodemon": "^3.0.1",
     "ts-jest": "^29.1.1",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "husky": "^8.0.0"
   },
   "dependencies": {
     "@types/jsonwebtoken": "^9.0.5",
@@ -44,7 +46,9 @@
     "debug": "^4.3.4",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "huskies": "^0.0.9",
     "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.3.0",
     "mongoose": "^8.0.1",
     "morgan": "^1.10.0"
   }
