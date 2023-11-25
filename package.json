@@ -11,7 +11,7 @@
     "test": "jest --watchAll --coverage"
   },
   "keywords": [],
-  "author": "Alejandro Irastorza Leal",
+  "author": "Carlos",
   "license": "ISC",
   "prettier": {
     "singleQuote": true
